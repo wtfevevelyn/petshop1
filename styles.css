@@ -1,0 +1,82 @@
+/* Estilos ya proporcionados anteriormente */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+section {
+    margin: 2rem;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007bff;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 1.5rem;
+}
+
+.login-form, .orden-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-form label, .orden-form label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.login-form input, .orden-form input {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #007bff;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
